@@ -1,11 +1,11 @@
 # Lab: Standard File Permissions — `chmod` and the `ugo/rwx` Model
 
-**Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
-**Subjects covered:** POSIX permission triplets (user / group / other), read/write/execute bits, symbolic and octal `chmod`, `umask` effect on new files, interpreting `ls -l`, directories vs files (execute = traverse), permission math without a calculator
-**Career arcs covered:** RHCSA (EX200 file permission objectives), RHCE (Ansible `file` module `mode:`), SRE (least-privilege incident response), DevOps (container image UID/GID and volume mount modes), AI/MLOps (securing model weights and dataset directories on shared clusters)
-**Prerequisite:** Comfort with `ls`, `cd`, and basic shell navigation as root or with `sudo`
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 baseline inspection · 2–3 symbolic and octal `chmod` core · 4 directory execute semantics · 5 `umask` and new-file behavior · 6 RHCSA-style capstone plus cleanup
+- **Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
+- **Subjects covered:** POSIX permission triplets (user / group / other), read/write/execute bits, symbolic and octal `chmod`, `umask` effect on new files, interpreting `ls -l`, directories vs files (execute = traverse), permission math without a calculator
+- **Career arcs covered:** RHCSA (EX200 file permission objectives), RHCE (Ansible `file` module `mode:`), SRE (least-privilege incident response), DevOps (container image UID/GID and volume mount modes), AI/MLOps (securing model weights and dataset directories on shared clusters)
+- **Prerequisite:** Comfort with `ls`, `cd`, and basic shell navigation as root or with `sudo`
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 baseline inspection · 2–3 symbolic and octal `chmod` core · 4 directory execute semantics · 5 `umask` and new-file behavior · 6 RHCSA-style capstone plus cleanup
 
 ---
 
